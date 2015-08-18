@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390B678C1B82CFAB00991807 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 390B678B1B82CFAB00991807 /* main.m */; };
+		390B678F1B82CFAB00991807 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 390B678E1B82CFAB00991807 /* AppDelegate.m */; };
+		390B67921B82CFAB00991807 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390B67911B82CFAB00991807 /* ViewController.m */; };
+		390B67951B82CFAB00991807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390B67931B82CFAB00991807 /* Main.storyboard */; };
+		390B67981B82CFAB00991807 /* BirdFly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 390B67961B82CFAB00991807 /* BirdFly.xcdatamodeld */; };
+		390B679A1B82CFAB00991807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390B67991B82CFAB00991807 /* Assets.xcassets */; };
+		390B679D1B82CFAB00991807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390B679B1B82CFAB00991807 /* LaunchScreen.storyboard */; };
+		390B67A81B82CFAB00991807 /* BirdFlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 390B67A71B82CFAB00991807 /* BirdFlyTests.m */; };
+		390B67B31B82CFAB00991807 /* BirdFlyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 390B67B21B82CFAB00991807 /* BirdFlyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		390B67A41B82CFAB00991807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 390B677F1B82CFAB00991807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390B67861B82CFAB00991807;
+			remoteInfo = BirdFly;
+		};
+		390B67AF1B82CFAB00991807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 390B677F1B82CFAB00991807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 390B67861B82CFAB00991807;
+			remoteInfo = BirdFly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		390B67871B82CFAB00991807 /* BirdFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		390B678B1B82CFAB00991807 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		390B678D1B82CFAB00991807 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		390B678E1B82CFAB00991807 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		390B67901B82CFAB00991807 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		390B67911B82CFAB00991807 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		390B67941B82CFAB00991807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		390B67971B82CFAB00991807 /* BirdFly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirdFly.xcdatamodel; sourceTree = "<group>"; };
+		390B67991B82CFAB00991807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		390B679C1B82CFAB00991807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		390B679E1B82CFAB00991807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390B67A31B82CFAB00991807 /* BirdFlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdFlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		390B67A71B82CFAB00991807 /* BirdFlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdFlyTests.m; sourceTree = "<group>"; };
+		390B67A91B82CFAB00991807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390B67AE1B82CFAB00991807 /* BirdFlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdFlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		390B67B21B82CFAB00991807 /* BirdFlyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdFlyUITests.m; sourceTree = "<group>"; };
+		390B67B41B82CFAB00991807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		390B67841B82CFAB00991807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B67A01B82CFAB00991807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B67AB1B82CFAB00991807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		390B677E1B82CFAB00991807 = {
+			isa = PBXGroup;
+			children = (
+				390B67891B82CFAB00991807 /* BirdFly */,
+				390B67A61B82CFAB00991807 /* BirdFlyTests */,
+				390B67B11B82CFAB00991807 /* BirdFlyUITests */,
+				390B67881B82CFAB00991807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		390B67881B82CFAB00991807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				390B67871B82CFAB00991807 /* BirdFly.app */,
+				390B67A31B82CFAB00991807 /* BirdFlyTests.xctest */,
+				390B67AE1B82CFAB00991807 /* BirdFlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		390B67891B82CFAB00991807 /* BirdFly */ = {
+			isa = PBXGroup;
+			children = (
+				390B678D1B82CFAB00991807 /* AppDelegate.h */,
+				390B678E1B82CFAB00991807 /* AppDelegate.m */,
+				390B67901B82CFAB00991807 /* ViewController.h */,
+				390B67911B82CFAB00991807 /* ViewController.m */,
+				390B67931B82CFAB00991807 /* Main.storyboard */,
+				390B67991B82CFAB00991807 /* Assets.xcassets */,
+				390B679B1B82CFAB00991807 /* LaunchScreen.storyboard */,
+				390B679E1B82CFAB00991807 /* Info.plist */,
+				390B67961B82CFAB00991807 /* BirdFly.xcdatamodeld */,
+				390B678A1B82CFAB00991807 /* Supporting Files */,
+			);
+			path = BirdFly;
+			sourceTree = "<group>";
+		};
+		390B678A1B82CFAB00991807 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				390B678B1B82CFAB00991807 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		390B67A61B82CFAB00991807 /* BirdFlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				390B67A71B82CFAB00991807 /* BirdFlyTests.m */,
+				390B67A91B82CFAB00991807 /* Info.plist */,
+			);
+			path = BirdFlyTests;
+			sourceTree = "<group>";
+		};
+		390B67B11B82CFAB00991807 /* BirdFlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				390B67B21B82CFAB00991807 /* BirdFlyUITests.m */,
+				390B67B41B82CFAB00991807 /* Info.plist */,
+			);
+			path = BirdFlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		390B67861B82CFAB00991807 /* BirdFly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390B67B71B82CFAB00991807 /* Build configuration list for PBXNativeTarget "BirdFly" */;
+			buildPhases = (
+				390B67831B82CFAB00991807 /* Sources */,
+				390B67841B82CFAB00991807 /* Frameworks */,
+				390B67851B82CFAB00991807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdFly;
+			productName = BirdFly;
+			productReference = 390B67871B82CFAB00991807 /* BirdFly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		390B67A21B82CFAB00991807 /* BirdFlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390B67BA1B82CFAB00991807 /* Build configuration list for PBXNativeTarget "BirdFlyTests" */;
+			buildPhases = (
+				390B679F1B82CFAB00991807 /* Sources */,
+				390B67A01B82CFAB00991807 /* Frameworks */,
+				390B67A11B82CFAB00991807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390B67A51B82CFAB00991807 /* PBXTargetDependency */,
+			);
+			name = BirdFlyTests;
+			productName = BirdFlyTests;
+			productReference = 390B67A31B82CFAB00991807 /* BirdFlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		390B67AD1B82CFAB00991807 /* BirdFlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 390B67BD1B82CFAB00991807 /* Build configuration list for PBXNativeTarget "BirdFlyUITests" */;
+			buildPhases = (
+				390B67AA1B82CFAB00991807 /* Sources */,
+				390B67AB1B82CFAB00991807 /* Frameworks */,
+				390B67AC1B82CFAB00991807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				390B67B01B82CFAB00991807 /* PBXTargetDependency */,
+			);
+			name = BirdFlyUITests;
+			productName = BirdFlyUITests;
+			productReference = 390B67AE1B82CFAB00991807 /* BirdFlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		390B677F1B82CFAB00991807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Adusa;
+				TargetAttributes = {
+					390B67861B82CFAB00991807 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					390B67A21B82CFAB00991807 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 390B67861B82CFAB00991807;
+					};
+					390B67AD1B82CFAB00991807 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 390B67861B82CFAB00991807;
+					};
+				};
+			};
+			buildConfigurationList = 390B67821B82CFAB00991807 /* Build configuration list for PBXProject "BirdFly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 390B677E1B82CFAB00991807;
+			productRefGroup = 390B67881B82CFAB00991807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				390B67861B82CFAB00991807 /* BirdFly */,
+				390B67A21B82CFAB00991807 /* BirdFlyTests */,
+				390B67AD1B82CFAB00991807 /* BirdFlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		390B67851B82CFAB00991807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390B679D1B82CFAB00991807 /* LaunchScreen.storyboard in Resources */,
+				390B679A1B82CFAB00991807 /* Assets.xcassets in Resources */,
+				390B67951B82CFAB00991807 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B67A11B82CFAB00991807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B67AC1B82CFAB00991807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		390B67831B82CFAB00991807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390B67981B82CFAB00991807 /* BirdFly.xcdatamodeld in Sources */,
+				390B67921B82CFAB00991807 /* ViewController.m in Sources */,
+				390B678F1B82CFAB00991807 /* AppDelegate.m in Sources */,
+				390B678C1B82CFAB00991807 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B679F1B82CFAB00991807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390B67A81B82CFAB00991807 /* BirdFlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		390B67AA1B82CFAB00991807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				390B67B31B82CFAB00991807 /* BirdFlyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		390B67A51B82CFAB00991807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390B67861B82CFAB00991807 /* BirdFly */;
+			targetProxy = 390B67A41B82CFAB00991807 /* PBXContainerItemProxy */;
+		};
+		390B67B01B82CFAB00991807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 390B67861B82CFAB00991807 /* BirdFly */;
+			targetProxy = 390B67AF1B82CFAB00991807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		390B67931B82CFAB00991807 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390B67941B82CFAB00991807 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		390B679B1B82CFAB00991807 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				390B679C1B82CFAB00991807 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		390B67B51B82CFAB00991807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		390B67B61B82CFAB00991807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		390B67B81B82CFAB00991807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BirdFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKR.BirdFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		390B67B91B82CFAB00991807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BirdFly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKR.BirdFly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		390B67BB1B82CFAB00991807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BirdFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKR.BirdFlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdFly.app/BirdFly";
+			};
+			name = Debug;
+		};
+		390B67BC1B82CFAB00991807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BirdFlyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKR.BirdFlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdFly.app/BirdFly";
+			};
+			name = Release;
+		};
+		390B67BE1B82CFAB00991807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BirdFlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKR.BirdFlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BirdFly;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		390B67BF1B82CFAB00991807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BirdFlyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZKR.BirdFlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BirdFly;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		390B67821B82CFAB00991807 /* Build configuration list for PBXProject "BirdFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390B67B51B82CFAB00991807 /* Debug */,
+				390B67B61B82CFAB00991807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		390B67B71B82CFAB00991807 /* Build configuration list for PBXNativeTarget "BirdFly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390B67B81B82CFAB00991807 /* Debug */,
+				390B67B91B82CFAB00991807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		390B67BA1B82CFAB00991807 /* Build configuration list for PBXNativeTarget "BirdFlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390B67BB1B82CFAB00991807 /* Debug */,
+				390B67BC1B82CFAB00991807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		390B67BD1B82CFAB00991807 /* Build configuration list for PBXNativeTarget "BirdFlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				390B67BE1B82CFAB00991807 /* Debug */,
+				390B67BF1B82CFAB00991807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		390B67961B82CFAB00991807 /* BirdFly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				390B67971B82CFAB00991807 /* BirdFly.xcdatamodel */,
+			);
+			currentVersion = 390B67971B82CFAB00991807 /* BirdFly.xcdatamodel */;
+			path = BirdFly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 390B677F1B82CFAB00991807 /* Project object */;
+}
