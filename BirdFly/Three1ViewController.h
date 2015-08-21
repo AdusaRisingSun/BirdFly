@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Three1ViewController.h
 //  BirdFly
 //
 //  Created by Adusa on 15/8/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (strong,nonatomic)UIWindow *window;
+@interface Three1ViewController : UIViewController
 
 @end
-
